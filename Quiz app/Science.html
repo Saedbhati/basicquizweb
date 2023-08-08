@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science quiz</title>
+    <script src="quiz.js">
+
+    </script>
+    
+</head>
+<body onload="fetchQuestion('https://opentdb.com/api.php?amount=10&category=18')">
+    <h1 id="q">Q1</h1>
+
+    
+        <input type="radio" class="radioop" id="option1" name="option" value="option1">
+        <label id="option1-lable" for="option1">option1</label><br>
+        <input type="radio" class="radioop" id="option2" name="option" value="option2">
+        <label id="option2-lable" for="option2">option2</label><br>
+        <input type="radio" class="radioop" id="option3" name="option" value="option3">
+        <label id="option3-lable" for="option3">option3</label><br>
+        <input type="radio" class="radioop" id="option4" name="option" value="option4">
+        <label id="option4-lable" for="option4">option4</label><br><br>
+  
+
+    
+    <script>  
+    </script>
+
+
+
+    <button onclick="next_question()">NExt</button><br><br>
+    <h1 id="point">Your Point is 0</h1>
+    
+    
+    
+</body>
+</html>
